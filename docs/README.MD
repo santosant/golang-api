@@ -1,24 +1,24 @@
 # Go-API
 
-Implementando uma API com Golang e PostgreSQL
+Implementing an API with Golang and Postgres
 
-Esta aplicação serão definidas em 4 packages, que são eles:
+In this application will defined in 4 packages, which are:
 
 ### DB
 
-Responsável pelas configurações relacionado ao Database
+Responsible for Database related settings
 
 ### Configs
 
-Responsável por levar estas configurações para a aplicação.
+Responsible for taking these settings to the application.
 
 ### Handlers
 
-Responsável por receber e tratar as chamadas da API.
+Responsible for receiving and handling API calls.
 
 ### Models
 
-Responsável com a integração com o DB, recebe as requestes do Banco e cria as tarefas no Postgres
+Responsible for integration with DB, receives requests from Database and creates tasks in Postgres
 
 ## How to Run
 
