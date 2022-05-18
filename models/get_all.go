@@ -2,7 +2,7 @@ package models
 
 import "github.com/santosant/go-api/db"
 
-func getAll() (todos []Todo, err error) {
+func GetAll() (todos []Todo, err error) {
 	conn, err := db.OpenConnection()
 
 	if err != nil {
