@@ -3,6 +3,6 @@ package models
 type Todo struct {
 	ID          int64  `json:"id"`
 	Title       string `json:"title"`
-	Description bool   `json:"description"`
+	Description string `json:"description"`
 	Completed   bool   `json:"completed"`
 }
